@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"
+        android:hint="Type something"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/txtpassword"
+        android:hint="type your text password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:hint="type numbered password"
+        android:id="@+id/numpassword"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:id="@+id/email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Phone Number"
+        android:id="@+id/pno"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DateTime"
+        android:inputType="datetime"
+        android:id="@+id/datetime"
+        />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:id="@+id/autocomplete"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show data"
+        android:id="@+id/addbtn"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="TextView"
+  />
+
+
+    <TextView
+        android:id="@+id/textpass"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="TextView"
+        />
+
+    <TextView
+        android:id="@+id/numbpass"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="TextView"
+        />
+    <TextView
+        android:id="@+id/emai"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="TextView"
+        />
+    <TextView
+        android:id="@+id/phonenum"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="TextView"
+        />
+    <TextView
+        android:id="@+id/datetimee"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="TextView"
+        />
+
+
+</LinearLayout>
